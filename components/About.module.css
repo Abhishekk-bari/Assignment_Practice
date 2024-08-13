@@ -1,0 +1,76 @@
+/* About.module.css */
+
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: white;
+    flex-direction: row-reverse;
+  }
+  
+  .aboutContent {
+    max-width: 50%;
+    
+  }
+  
+  .aboutContent h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .aboutContent p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .skillsSection {
+    margin-top: 30px;
+  }
+  
+  .skillsSection h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+    display: block;
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #ff6600;
+    border-radius: 5px;
+  }
+  
+  .aboutImage img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+  }
+  .aboutImage {
+    margin-right: 50px;
+  }

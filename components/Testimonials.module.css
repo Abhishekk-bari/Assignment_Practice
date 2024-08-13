@@ -1,0 +1,57 @@
+/* Testimonials.module.css */
+
+.testimonialsSection {
+    padding: 80px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .testimonialsSection h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .testimonialsSection p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .testimonialsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .testimonialItem {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .clientImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+  }
+  
+  .testimonialItem h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .testimonialItem span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #666;
+  }
+  

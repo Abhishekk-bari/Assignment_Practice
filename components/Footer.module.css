@@ -1,0 +1,48 @@
+/* Footer CSS */
+
+.footer {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .footer .logo img {
+    width: 100px;
+    height: 20px;
+    padding-bottom: 1.2rem;
+    
+  }
+  
+  .footerNav {
+    margin-bottom: 20px;
+  }
+  
+  .footerNav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footerNav a:hover {
+    color: #ff6600;
+  }
+  
+  .socialMedia {
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia a img {
+    width: 15px;
+    margin: 0 10px;
+  }
+  
+  .footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #b0acac;
+    background-color: #3b3b3b;
+  }
+  

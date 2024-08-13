@@ -1,0 +1,49 @@
+/* Contact.module.css */
+
+.contactSection {
+    padding: 80px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .contactSection h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .contactSection p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .contactForm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contactForm input[type="email"] {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    width: 350px;
+  }
+  
+  .contactForm button {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
